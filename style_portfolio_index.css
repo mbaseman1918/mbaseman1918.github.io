@@ -1,0 +1,59 @@
+body {margin:0;display:flex;flex-direction: column;justify-content: center;align-items:center;
+  background-image: url(mthood.jpg);background-size: cover;background-repeat: no-repeat;
+  background-attachment: fixed;color:white;background-position: center;}
+body.wildfire {margin:0;display:flex;flex-direction: column;justify-content: center;align-items:center;
+  background-image: url(wildfire.jpg);background-size: cover;background-repeat: no-repeat;
+  background-attachment: fixed;color:white;background-position: center;}
+a {color: white}
+div.spacer {height: 20vh;}
+/* div.projects table {border:solid;table-layout: auto;width:100%} */
+/* header.intro {display:flex;flex-direction: column;align-items: center;} */
+nav {padding: 1em;background: hsla(0, 0%, 30%, 0.7);width:100%;display:flex;align-items: center;justify-content: space-around;position: fixed;top:0;}
+header.intro {margin-top: 30vh;padding-bottom: 30px;background: hsla(0, 0%, 30%, 0.7);width:100%;display:flex;flex-direction: column;align-items: center;}
+img#basemanphoto{width:100vh; max-width: 500px}
+div.split {display:flex;justify-content: space-around;}
+div.aboutme {background: hsla(0, 0%, 30%, 0.7);width:50%;display:flex;flex-direction: column;align-items: center;}
+div.aboutme p {width:90%}
+div.skills {background: hsla(0, 0%, 30%, 0.7);width:30%;display:flex;flex-direction: column;align-items: center;justify-content: center;}
+div.skills ul{padding:0;padding-bottom: 30px;list-style-type: none;margin:0px;width:100%;display:flex;justify-content: space-around;flex-wrap: wrap;}
+div.education {background: hsla(0, 0%, 30%, 0.7);width:45%;display:flex;flex-direction: column;align-items: center;}
+div.education table tr th{border:solid;}
+div.education table tr td{border:solid;}
+div.experience {background: hsla(0, 0%, 30%, 0.7);width:45%;display:flex;flex-direction: column;align-items: center;justify-content: center;}
+div.experience table tr th{border:solid;}
+div.experience table tr td{border:solid;}
+/* div.skills ul{padding:0;padding-bottom: 30px;list-style-type: none;margin:0px;width:100%;display:flex;justify-content: space-around;flex-wrap: wrap;align-content: center;} */
+/* div.skills ul li{padding:0px;} */
+div.capstone {padding-bottom: 30px;background: hsla(0, 0%, 30%, 0.7);width:80%;display:flex;flex-direction: column;align-items: center;justify-content: center;}
+div.capstone p {width:80%;}
+div.projects {height: 60vh;padding-bottom: 30px;background: hsla(0, 0%, 30%, 0.7);width:100%;display:flex;flex-direction: column;align-items: center;justify-content: center;}
+div.projects table tr th{border:solid;}
+div.projects table tr td{border:solid;}
+div.interests {align-self: flex-end; margin-bottom: 15px;background: hsla(0, 0%, 30%, 0.7);width:100%;display:flex;flex-direction: column;align-items: center;}
+div.interests ul{padding:0;padding-bottom: 30px;list-style-type: none;margin:0px;width:100%;display:flex;justify-content: space-around;}
+
+
+/* @media only screen and (max-width:800px) {}
+@supports () {
+
+} */
+
+
+
+/* flex stuff */
+
+/* div.skills ul {display:flex;
+  justify-content:space-evenly;
+  /* start/center/flex-end/flex-start(default)/space-around/space-evenly/space-between; */
+  /* align-items:center; */
+  /* stretch(default)/flex-start/flex-end/center/baseline; */
+  /* flex-wrap:wrap; */
+  /* no-wrap(default)/wrap/wrap-reverse; */
+  /* flex-direction:row-reverse; */
+  /* row(default)/row-reverse/column/column-reverse */
+  /* align-content:center */
+  /* stretch(default)/center/flex-start/flex-end/space-around/space-between/space-evenly */
+  /* flex-flow: direction wrap */
+/* } */
+
+/* div.skills ul li:nth-child(2) {align-self: flex-end; order:1} */ */
